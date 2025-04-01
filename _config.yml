@@ -22,7 +22,7 @@ title: Orthofrust
 description: >-
   Here We Go!
 baseurl: "orthofrust" 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://orthofrust.com/"
 
 keep_files: [assets]
 
