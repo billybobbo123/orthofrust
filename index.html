@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #ACFF9E; 
+      margin: 0; 
+      font-family: "Times New Roman", serif; 
+      position: relative; 
+      background-image: url('/assets/images/apple3.0/tile.png'); 
+      background-repeat: repeat; 
+      background-size: 100px;
+      -webkit-font-smoothing: none; 
+      -moz-osx-font-smoothing: grayscale; 
+    }
+
+    .background-image {
+      position: absolute; 
+      top: 30%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      z-index: -1; 
+      width: 50%; 
+      height: 120%; 
+    }
+
+    .side-banner {
+      position: absolute;
+      top: 13%;
+      bottom: 0;
+      width: 10%; 
+      height: 60vh; 
+      z-index: 0;
+    }
+
+    .left-side-banner {
+      left: 25%;
+      background-image: url('/assets/images/apple3.0/sidebanner.png');
+      background-size: cover; 
+      background-repeat: no-repeat;
+    }
+
+    .right-side-banner {
+      right: 25%;
+      background-image: url('/assets/images/apple3.0/sidebanner2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .banner-container {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+
+    .banner {
+      width: 50%; 
+      position: relative; 
+      top: 0;
+      left: 25%; 
+      z-index: 2; 
+    }
+
+    /* Logo styling */
+    .logo {
+      position: absolute;
+      top: 30%; 
+      left: 28%; 
+      z-index: 3;
+      width: 15%; 
+    }
+
+    .page-content {
+      text-align: center;
+      padding-top: 100px; 
+      position: relative;
+      z-index: 4; 
+    }
+
+    
+    .footer-col-3 {
+      text-align: center; 
+      padding: 20px;
+    }
+
+    
+    .second-banner-container {
+      position: relative;
+      width: 50%; 
+      left: 25%; 
+      margin-top: 200px; 
+    }
+
+    .second-banner {
+      width: 100%; 
+      position: relative;
+      z-index: 1;
+    }
+
+    .team-text {
+      position: absolute;
+      bottom: 20px; 
+      left: 15%; 
+      transform: translateX(-50%); 
+      font-size: 20px; 
+      color: rgb(0, 0, 0); 
+      font-weight: bold; 
+      z-index: 2; 
+    }
+
+    h1 {
+      text-align: center; 
+      font-size: 25px; 
+      font-weight: bold; 
+      margin: 0;
+      margin-top: 150px; 
+    }
+
+    h3 {
+      margin-top: 20px; 
+    }
+
+    .home {
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 100%; 
+    }
+
+    .home a {
+      display: inline-block;
+      width: 273.594px; 
+      height: 108.297px;
+      text-align: center;
+      position: relative;
+    }
+
+    .home img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+    }
+  </style>
+</head>
+<body>
+  <div class="background-image">
+    <img src="/assets/images/apple3.0/background.png" alt="Background Image" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+
+  <div class="side-banner left-side-banner"></div>
+  <div class="side-banner right-side-banner"></div>
+
+  <div class="banner-container">
+    <img src="/assets/images/apple3.0/banner.png" alt="Banner" class="banner">
+    <h1><img src="/assets/images/apple3.0/Logo.png" alt="Logo" class="logo"></h1>
+  </div>
+
+  <h1>get ready to delve deep into the psyche of the elf</h1>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="home">
+        <a class="post-link" href="https://your-link-here.com">
+          <img src="/assets/images/apple3.0/download.png" alt="Download">
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <div class="second-banner-container">
+    <img src="/assets/images/apple3.0/banner.png" alt="Second Banner" class="second-banner">
+    <div class="team-text">
+      <p>@TeamGoldenApple 2009</p>
+    </div>
+  </div>
+
+</body>
+</html>
