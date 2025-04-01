@@ -11,7 +11,7 @@
       position: relative; 
       background-image: url('./assets/images/apple3.0/tile.png'); 
       background-repeat: repeat; 
-      background-size: 100px;
+      background-size: 10vw; /* Use vw for a relative background tile size */
       -webkit-font-smoothing: none; 
       -moz-osx-font-smoothing: grayscale; 
     }
@@ -22,16 +22,16 @@
       left: 50%; 
       transform: translate(-50%, -50%); 
       z-index: -1; 
-      width: 50%; 
-      height: 120%; 
+      width: 50%; /* Relative width */
+      height: 120vh; /* Relative height based on viewport height */
     }
 
     .side-banner {
       position: absolute;
-      top: 13%;
+      top: 15%; 
       bottom: 0;
-      width: 10%; 
-      height: 60vh; 
+      width: 10%;  /* Use percentage for width */
+      height: 60vh; /* Use vh for height to make it relative to the viewport */
       z-index: 0;
     }
 
@@ -56,10 +56,10 @@
     }
 
     .banner {
-      width: 50%; 
+      width: 50%; /* Relative width */
       position: relative; 
       top: 0;
-      left: 25%; 
+      left: 25%;  /* Relative positioning based on parent container */
       z-index: 2; 
     }
 
@@ -69,28 +69,26 @@
       top: 30%; 
       left: 28%; 
       z-index: 3;
-      width: 15%; 
+      width: 15vw; /* Use viewport width for logo size */
     }
 
     .page-content {
       text-align: center;
-      padding-top: 100px; 
+      padding-top: 10vh;  /* Use vh for padding based on viewport height */
       position: relative;
       z-index: 4; 
     }
 
-    
     .footer-col-3 {
       text-align: center; 
-      padding: 20px;
+      padding: 2em; /* Use em for padding to make it relative to font size */
     }
 
-    
     .second-banner-container {
       position: relative;
       width: 50%; 
       left: 25%; 
-      margin-top: 200px; 
+      margin-top: 30vh; /* Use vh for margin to make it relative to viewport height */
     }
 
     .second-banner {
@@ -101,10 +99,10 @@
 
     .team-text {
       position: absolute;
-      bottom: 20px; 
+      bottom: 2vh;  /* Use vh for positioning relative to the viewport height */
       left: 15%; 
       transform: translateX(-50%); 
-      font-size: 20px; 
+      font-size: 1.5em; /* Reduced font size to make it smaller */
       color: rgb(0, 0, 0); 
       font-weight: bold; 
       z-index: 2; 
@@ -112,14 +110,14 @@
 
     h1 {
       text-align: center; 
-      font-size: 25px; 
+      font-size: 1.5em;  /* Reduced font size to make it smaller */
       font-weight: bold; 
       margin: 0;
-      margin-top: 150px; 
+      margin-top: 15vh;  /* Use vh for margin */
     }
 
     h3 {
-      margin-top: 20px; 
+      margin-top: 2vh;  /* Use vh for margin */
     }
 
     .home {
@@ -131,8 +129,8 @@
 
     .home a {
       display: inline-block;
-      width: 273.594px; 
-      height: 108.297px;
+      width: 15vw;  /* Reduced width to make it smaller */
+      height: 6vw; /* Reduced height to make it smaller */
       text-align: center;
       position: relative;
     }
